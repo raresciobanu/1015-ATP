@@ -136,8 +136,9 @@ void main() {
 	printf("\n\n---pointeri la functii---\n\n");
 	//pointeri la functii
 	int uuu = 60;
-	void (*pointerLaFunctie)(int&);
 
+
+	void (*pointerLaFunctie)(int&);
 	pointerLaFunctie = fct1;
 	pointerLaFunctie(uuu); //e ca si cum ai executa fct1(uuu)
 	printf("pointerLaFunctie a executat fct1(uuu) si se afiseaza uuu=%d\n", uuu);
